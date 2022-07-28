@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="slicknav.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.png">
+    <link rel="apple-touch-icon" href="img/logo.png">
+    <title>Cloud Photography</title>
+</head>
+<body>
+    
+
+    <nav class="header-area">
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li class="logo"><img  style="width:60px;" src="img/logo.png" alt=""></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="banner">
+        <img src="img/1.jpg" alt="">
+        <img src="img/2.jpg" alt="">
+        <img src="img/3.jpg" alt="">
+        <img src="img/4.jpg" alt="">
+        <img src="img/5.jpg" alt="">
+        <img src="img/1.jpg" alt="">
+        <img src="img/2.jpg" alt="">
+        <img src="img/4.jpg" alt="">
+        <img src="img/3.jpg" alt="">
+        <img src="img/5.jpg" alt="">
+    </div>
+
+    <div class="banner-text">
+        <h2><span></span>Cloud Photography</h2>
+        <p>Exclusive photo series from all over the world</p>
+        <a class="btn" href="#">Learn More</a>
+    </div>
+
+
+
+    <script 
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+    <script src="jquery.slicknav.js"></script>
+    <script>
+        $('.menu').slicknav({
+            'appendTo' : '.header-area'
+        });
+    </script>
+</body>
+</html>
